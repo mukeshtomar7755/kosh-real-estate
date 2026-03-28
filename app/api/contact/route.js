@@ -8,7 +8,7 @@ export async function POST(req) {
 
     await resend.emails.send({
       from: "onboarding@resend.dev",
-      to: "koshrealestate@gmail.com",
+      to: "yashestatedelhi@gmail.com",
       subject: "New Enquiry",
       html: `
         <p>Name: ${formData.get("name")}</p>
